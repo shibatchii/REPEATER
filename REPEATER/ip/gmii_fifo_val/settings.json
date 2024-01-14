@@ -1,0 +1,72 @@
+{
+    "args": [
+        "-o",
+        "gmii_fifo_val",
+        "--base_path",
+        "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.0"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "9",
+        "DATA_WIDTH": "11",
+        "MODE": "\"FWFT\"",
+        "OUTPUT_REG": "1",
+        "PROG_FULL_ASSERT": "128",
+        "PROGRAMMABLE_FULL": "\"NONE\"",
+        "PFN_INTERNAL": "127",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "1",
+        "PIPELINE_REG": "1",
+        "FAMILY": "\"TITANIUM\"",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\gmii_fifo_val_tmpl.vhd",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\gmii_fifo_val_tmpl.v",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\gmii_fifo_val_define.vh",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\gmii_fifo_val.v"
+        ],
+        "external_example_example": [
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\T20F256_devkit\\fifo_demo_top.v",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\T20F256_devkit\\fifo_demo.peri.xml",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\T20F256_devkit\\fifo_demo.xml",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\T20F256_devkit\\efx_symmetric_width_fifo_top.v",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\T20F256_devkit\\gmii_fifo_val.v",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\T20F256_devkit\\gmii_fifo_val_define.vh"
+        ],
+        "external_example_2": [
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\Ti60F225_devkit\\fifo_demo_top.v",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\Ti60F225_devkit\\fifo_demo.xml",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.v",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\Ti60F225_devkit\\gmii_fifo_val.v",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\Ti60F225_devkit\\gmii_fifo_val_define.vh"
+        ],
+        "external_testbench_testbench": [
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\Testbench\\fifo_tb.sv",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\Testbench\\xrun.sh",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\Testbench\\msim.sh",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\Testbench\\flist",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\Testbench\\modelsim.do",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\Testbench\\gmii_fifo_val.v",
+            "C:\\FPGA\\EFINIX\\REPEATER\\REPEATER\\ip\\gmii_fifo_val\\Testbench\\gmii_fifo_val_define.vh"
+        ]
+    },
+    "sw_version": "2023.1.150",
+    "generated_date": "2023-09-18T08:53:56.095739"
+}

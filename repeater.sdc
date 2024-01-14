@@ -1,0 +1,6 @@
+create_clock -name { clk125_0 } -period 8.000 [get_ports { RCLK_0 }]
+create_clock -name { clk125_1 } -period 8.000 [get_ports { RCLK_1 }]
+create_clock -name { clk125_p0 } -period 8.000 [get_ports { PLL_RCLK_0 }]
+create_clock -name { clk125_p1 } -period 8.000 [get_ports { PLL_RCLK_1 }]
+create_clock -name { clk125_i0 } -period 8.000 [get_ports { RCLK_PLL_0 }]
+create_clock -name { clk125_i1 } -period 8.000 [get_ports { RCLK_PLL_1 }]
